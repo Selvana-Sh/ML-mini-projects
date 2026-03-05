@@ -495,7 +495,7 @@ RandomForestRegressor(n_estimators=200, max_depth=12, random_state=42)
 | Train/Test Split | 80% / 20% (chronological) |
 | Data Source | Yahoo Finance via `yfinance` |
 
-An R² of 0.9685 means the model explains ~97% of the variance in next-day closing prices. The Random Forest was chosen over a single Decision Tree because ensemble averaging reduces overfitting, which is critical for the noisy dynamics of stock market data. The lag features (`Close_Lag1`, `Close_Lag2`) are the strongest predictors, capturing day-to-day price autocorrelation.
+An R² of 0.9685 means the model explains ~97% of the variance in next-day closing prices. The Random Forest was chosen over a single Decision Tree because ensemble averaging reduces overfitting, which is critical for the noisy dynamics of stock market data. The lag features (`Close_Lag1`, `Close_Lag2`) are the strongest predictors, capturing day-to-day price autocorrelation. 
 
 ---
 
